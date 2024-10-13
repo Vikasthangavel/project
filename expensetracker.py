@@ -1,5 +1,4 @@
 import time
-
 addexpense = []
 addincome = []
 def save_data():
@@ -11,7 +10,6 @@ def save_data():
         for income in addincome:
             f.write(f"{income}\n")
     print("Data saved successfully!")
-
 # Function to load data from a text file
 def load_data():
     try:
