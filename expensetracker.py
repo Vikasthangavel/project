@@ -2,8 +2,6 @@ import time
 
 addexpense = []
 addincome = []
-
-# Function to save data to a text file
 def save_data():
     with open('expense_data.txt', 'w') as f:
         f.write("Expenses:\n")
