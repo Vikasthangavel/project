@@ -1,4 +1,3 @@
 Expenses:
-20
-30
+250
 Income:

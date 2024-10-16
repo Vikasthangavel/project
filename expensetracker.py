@@ -35,9 +35,13 @@ def load_data():
 class ExpenseTracker:
     def add_expense():
         expense = int(input("Enter your Expense: "))
-        addexpense.append(expense)
-        print("Expense Added successfully!")
-        save_data()
+        if(sum(addincome )>= sum(addexpense)):
+            addexpense.append(expense)
+            print("Expense Added successfully!")
+            save_data()
+        else:
+            print("your expense is higher than income")
+            
 
     def add_income():
         income = int(input("Enter your Income: "))
